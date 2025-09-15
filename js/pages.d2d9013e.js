@@ -1,5 +1,5 @@
-import { initSlideshow, initFlashcardHover, escapeHTML, randomAnime, initiateFilters } from './main.js';
-import { getTopRatedAnime, getMostPopularAnime, getAiringAnime, getSeasonalAnime, getGenres, genres} from './api.js';
+import { initSlideshow, initFlashcardHover, escapeHTML, randomAnime, initiateFilters } from './main.ad96b171.js';
+import { getTopRatedAnime, getMostPopularAnime, getAiringAnime, getSeasonalAnime, getGenres, genres} from './api.74604ed3.js';
 
 export function loadPageContent(pageName) {
   hideLoader();
@@ -353,7 +353,7 @@ export async function loadHomePage() {
 
 
 export async function loadSearchPage(query = null) {
-  loadCSS('./css/search.css');
+  loadCSS('./css/search.b2c5090c.css');
   console.log('Loading Search Page');
   document.getElementById('navsearch').style.color = '#8960ff';
   document.getElementById('navhome').style.color = '#ddd';

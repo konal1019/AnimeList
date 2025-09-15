@@ -1,4 +1,4 @@
-import { loadPageContent, load404, loadDetailsPage, loadSearchPage, loadHomePage } from './pages.js';
+import { loadPageContent, load404, loadDetailsPage, loadSearchPage, loadHomePage } from './pages.d2d9013e.js';
 
 const routes = {
   '/': 'home',
