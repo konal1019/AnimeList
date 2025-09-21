@@ -1,4 +1,4 @@
-import { loadPageContent } from './pages.js';
+import { loadPageContent } from './pages.dada5fd8.js';
 
 const routes = {
   '/': 'home',
