@@ -1,5 +1,5 @@
-import { loadPageContent, load404 } from './pages.js';
-import { loadDetailsPage } from './components/details.js';
+import { loadPageContent, load404 } from './pages.b1352eaa.js';
+import { loadDetailsPage } from './components/details.078842e7.js';
 
 const routes = {
   '/': 'home',

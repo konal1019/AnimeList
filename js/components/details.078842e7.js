@@ -1,11 +1,11 @@
-import { getAnimeDetails, getAnimeCharacters, getAnimeStaff, getAnimeInfo, getRandomAnime } from '../api.js';
-import { initFlashcardHover} from '../main.js';
-import { showLoader, hideLoader, loadCSS, load404 } from '../pages.js';
-import { createFlashcardHTML } from './UIs.js';
+import { getAnimeDetails, getAnimeCharacters, getAnimeStaff, getAnimeInfo, getRandomAnime } from '../api.88b53293.js';
+import { initFlashcardHover} from '../main.e07f86f5.js';
+import { showLoader, hideLoader, loadCSS, load404 } from '../pages.b1352eaa.js';
+import { createFlashcardHTML } from './UIs.7d568a64.js';
 
 export async function loadDetailsPage(animeId = null) {
   console.log(`Loading Details for anime ID: ${animeId}`);
-  loadCSS('./css/details.css');
+  loadCSS('./css/details.dbed4ccf.css');
   document.getElementById('navhome').style.color = '#ddd';
   document.getElementById('navsearch').style.color = '#ddd';
   const content = document.getElementById('content');

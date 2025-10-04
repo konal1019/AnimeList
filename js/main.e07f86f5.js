@@ -1,8 +1,8 @@
-import { genres, searchAnime, getGenres } from './api.js';
-import { showLoader, hideLoader } from './pages.js';
-import { createFlashcardHTML } from './components/UIs.js';
-import { escapeHTML, getSafeParams } from './components/utils.js';
-import { loadDetailsPage } from './components/details.js';
+import { genres, searchAnime, getGenres } from './api.88b53293.js';
+import { showLoader, hideLoader } from './pages.b1352eaa.js';
+import { createFlashcardHTML } from './components/UIs.7d568a64.js';
+import { escapeHTML, getSafeParams } from './components/utils.3840e25b.js';
+import { loadDetailsPage } from './components/details.078842e7.js';
 export const status = {"searching":false}
 
 export function initSlideshow() {
@@ -112,10 +112,10 @@ function triggerJumpscare() {
   jumpscareContainer.id = 'jumpscare-container';
 
   const jumpscareImage = document.createElement('img');
-  jumpscareImage.src = './jumpscare.jpg';
+  jumpscareImage.src = './jumpscare.55a1a238.jpg';
   jumpscareImage.id = 'jumpscare-image';
 
-  const jumpscareAudio = new Audio('./jumpscare.mp3');
+  const jumpscareAudio = new Audio('./jumpscare.2c34293a.mp3');
 
   jumpscareContainer.appendChild(jumpscareImage);
   document.body.appendChild(jumpscareContainer);

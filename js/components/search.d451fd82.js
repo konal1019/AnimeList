@@ -1,12 +1,12 @@
-import { status, initSlideshow, initFlashcardHover, randomAnime, initFilters, renderGenres, initSearch, displaySearchResults, applyFilters} from '../main.js';
-import { searchAnime, getTopRatedAnime, getMostPopularAnime, getGenres, genres } from '../api.js';
-import { createAnimeSection, createFlashcardHTML } from './UIs.js';
-import { loadCSS, showLoader, hideLoader } from '../pages.js'
-import { escapeHTML } from './utils.js';
+import { status, initSlideshow, initFlashcardHover, randomAnime, initFilters, renderGenres, initSearch, displaySearchResults, applyFilters} from '../main.e07f86f5.js';
+import { searchAnime, getTopRatedAnime, getMostPopularAnime, getGenres, genres } from '../api.88b53293.js';
+import { createAnimeSection, createFlashcardHTML } from './UIs.7d568a64.js';
+import { loadCSS, showLoader, hideLoader } from '../pages.b1352eaa.js'
+import { escapeHTML } from './utils.3840e25b.js';
 
 export async function loadSearchPage() {
     const currentHash = window.location.hash;
-    loadCSS('./css/search.css');
+    loadCSS('./css/search.2883a058.css');
     console.log('Loading Search Page');
     document.getElementById('navsearch').style.color = '#8960ff';
     document.getElementById('navhome').style.color = '#ddd';
